@@ -1,6 +1,6 @@
-*{
-  /*border: 3px solid;
-  background-color: blue;*/
+div{
+  /*border: 3px solid;*/
+  /*background-color: blue;*/
 }
 
 body, ul{
@@ -23,7 +23,7 @@ header:after{
   position: fixed;
 }
 
-#logo, nav, .registro, ul{
+#logo, nav, .registro, ul, .letras, .celular{
   display: inline-block;
 }
 
@@ -88,4 +88,35 @@ section#video{
 iframe{
   height: 100%;
   width: 100%;
+}
+
+div.formulario{
+  position: absolute;
+  top: 121px;
+  right: 0;
+  height: 601px;
+  background-color: white;
+  width: 510px;
+}
+
+div.contenido-1{
+  position: relative;
+  box-sizing: border-box;
+  padding: 42px;
+  bottom: 40px;
+  height: 601px;
+  background: linear-gradient(#650e82,#2B1E66);
+  width: 100%;
+}
+
+div.letras{
+  position: relative;
+  bottom: 43px;
+  font-size: 21px;
+  color: white;
+}
+
+div.celular{
+  height: 500px;
+  width: 500px;
 }
