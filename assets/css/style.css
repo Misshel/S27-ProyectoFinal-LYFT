@@ -1,7 +1,7 @@
-div{
-  /*border: 3px solid;
-  background-color: blue;*/
-}
+/*footer ul{
+  border: 3px solid;
+  background-color: blue;
+}*/
 
 body, ul{
   font-family: 'Montserrat', sans-serif;
@@ -147,4 +147,57 @@ div.letras-video{
 #video1{
   height: 100%;
   width: 812.6px;
+}
+
+footer{
+  background-color: #333447;
+  position: absolute;
+  bottom: -2921px;
+  height: 525px;
+  width: 100%;
+}
+
+.final{
+  margin-left: 10%;
+}
+
+.footer{
+  display: block;
+}
+
+.enlaces{
+  margin: 42px auto;
+}
+
+.img{
+  height: 44px;
+  width: 147px;
+}
+
+span{
+  font-size: 24px;
+  border: 2px solid;
+  padding: 7px;
+  border-radius: 50px;
+  color: white;
+  margin: 21px;
+}
+
+.redes{
+  width: 55%;
+  border-bottom: 2px solid;
+  box-sizing: border-box;
+  border-color: white;
+  height: 55px;
+  margin: 27px auto;
+  text-align: center;
+}
+
+div.terminos{
+  text-align: center;
+}
+
+#terminos{
+  font-size: 15px;
+  border: 0;
 }
