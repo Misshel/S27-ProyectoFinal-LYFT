@@ -6,6 +6,7 @@ Creando gh-pages:
 https://misshel.github.io/S27-ProyectoFinal-LYFT/
 
 Ramas:
+
 (1) header
 estructura: nav -1 *se esta usando un parte de la cabecera q es el header para los enlaces tomandolas como una especie de lista y otra parte tambien enlaces pero como cajas.
 
