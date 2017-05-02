@@ -56,7 +56,7 @@ a{
 }
 
 a:hover{
-  color: green;
+  color: #FF00BF;
 }
 
 img{
@@ -78,6 +78,31 @@ img{
   margin: 3px 21px;
   width: 63px;
   text-align: center;
+}
+
+#formulario{
+  padding: 6px 29px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 21%;
+  width: 527px;
+  font-size: 24px;
+  box-sizing: border-box;
+  color:#728099;
+}
+
+#form-title{
+  color:#352384;
+}
+
+
+input{
+  font-size: 20px;
+  border: 0;
+  border-bottom: 1px solid;
+  border-color: #352384;
+  margin: 5px;
 }
 
 section#video{
