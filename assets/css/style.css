@@ -1,6 +1,6 @@
 div{
-  /*border: 3px solid;*/
-  /*background-color: blue;*/
+  /*border: 3px solid;
+  background-color: blue;*/
 }
 
 body, ul{
@@ -23,7 +23,7 @@ header:after{
   position: fixed;
 }
 
-#logo, nav, .registro, ul, .letras, .celular{
+#logo, nav, .registro, ul, .letras, .celular, .letras-video, #video1{
   display: inline-block;
 }
 
@@ -119,4 +119,32 @@ div.letras{
 div.celular{
   height: 500px;
   width: 500px;
+}
+
+div.cont-Videos{
+  position: relative;
+  top: -45px;
+  height: 560px;
+  background: white;
+}
+
+div.letras-video{
+  position: relative;
+  top: -332px;
+  width: 430px;
+  margin: 51px;
+  font-size: 21px;
+}
+
+#watch{
+  margin: 0;
+}
+
+#title-video{
+  margin: 2px;
+}
+
+#video1{
+  height: 100%;
+  width: 812.6px;
 }
